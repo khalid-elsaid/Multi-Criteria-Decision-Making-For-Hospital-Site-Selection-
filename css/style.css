@@ -1,0 +1,464 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+   padding: 0px;
+   margin: 0px; 
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.wep{
+    width: 100;
+    height: 1000px ;
+    background-image: url(../img/bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.wep .container {
+    height: 80px;
+    background-color: rgb(216, 233, 233);
+    background-color: transparent;
+    z-index: -5;
+    
+}
+
+.wep .container .header {
+    text-align: center;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wep .container .header h1 {
+    padding-top: 10px;
+    color: rgb(215, 245, 250);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.wep .container .header .minu {
+    padding-left: 365px;
+    margin-top: 24px;
+    font-size: 20px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.wep .container .header .minu a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+    float: left;
+}
+
+/* END OF HEADER SEACTION */
+
+/* START OF SECOND SECTION  */
+
+/* start apstract section */
+
+.wep .apstract {
+    background-color: rgb(240, 234, 227);
+    height: 650px;
+    width : 650px ;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(-50 , -50);
+}
+
+.apstract {
+    /* background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: minmax(200px , 600px);
+    margin-top: 400px;
+    margin-left: 200px; */
+}
+
+.apstract .contain {
+    /* text-align: center;  */
+    font-size: 18px;
+    padding-left: 28px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: 900;
+    text-indent: 0px;
+    line-height: 2;
+    word-spacing: 2px;
+
+
+}
+.apstract .contain p{
+    padding-left: 28px;
+    margin-top: 17px;
+}
+    
+.apstract .putton button {
+    width : 190px ;
+    height : 70px ;
+    margin-top: 9%;
+    margin-left: 60%;
+    background-color: brown;
+    background-color: brown;
+    color: beige;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* END OF FIRST SECTION => WEP */
+/*                 ////////////////////////////////////////////////////////////////////////////////////////                    */
+/* START OF SECOND SECTION */
+
+
+.mystudy {
+    background-image: url(../img/bg-03.jpg);
+    z-index: -2;
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.mystudy .container {
+    
+
+}
+
+.mystudy .container .studyarea {
+    margin-top: 50px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat( 5 , 1fr ) ;
+}
+
+.mystudy .container .studyarea  {
+    
+} 
+
+.imag {
+    grid-column: span 3;
+    z-index: 5;
+    width: 700px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.mystudy .container .studyarea .text {
+    margin-left: 50px;
+    grid-column: span 2;
+
+}
+
+.mystudy .container .studyarea .text h2 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: rgb(255, 0, 21);
+    font-weight: 900;
+}
+
+.mystudy .container .studyarea .text p {
+    width: 400px;
+    margin-top: 35px;
+    font-weight: 900;
+    text-indent: 20px;
+    line-height: 2;
+    word-spacing: 2px;
+}
+
+.special {
+    width: 370px;
+}
+
+
+/* END OF STUDY AREA SECTION */
+
+/*      //////////////////////////////////////////////////////////////////////////////////        */
+
+/* START OF TOPIC OF STUDY SECTION */
+
+.topic {
+    background-color:#431b3621 ;
+    width: 100%;
+    height: 670px;
+}
+
+
+
+.topic .container .topicofstudy {
+    margin-top: 50px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat( 5 , 1fr ) ;
+}
+
+.topic .container .photo {
+    grid-column: span 3;
+    z-index: 5;
+    width: 700px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.topic .container .info {
+
+    margin-left: 50px;
+    grid-column: span 2;
+
+}
+
+.topic .container .info h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(255, 0, 21);
+    font-weight: 900;
+}
+
+
+.topic .container .info p {
+    width: 400px;
+    margin-top: 25px;
+    font-weight: 900;
+    text-indent: 20px;
+    line-height: 2;
+    word-spacing: 2px;
+}
+
+/* END OF TOPIC OF STUDY SECTION */
+
+
+/*     ////////////////////////////////////////////////////////////////////////////////////    */
+
+/* START OF ARCGIS ONLINE SECTION */
+
+.arconline {
+    margin-bottom: 0px;
+    background-color:#df52b021 ;
+    width: 100%;
+    height: 670px;
+}
+
+
+.arconline .container {
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 400px;
+    height: 600px; */
+}
+
+.arconline .container .mymap {
+    margin-top:40px;
+    padding-left: 80px;
+    /* padding-right: 100px; */
+    width: 1100px;
+    height: 600px;
+}
+
+/* END OF ARCGIS ONLINE SECTION  */
+
+/*        ///////////////////////////////////////////////////////////////////////////////////////      */
+
+
+/* START OF REPORT SECTION */
+
+
+.report {
+    margin-top: 0px;
+    background-color:#4c093621 ;
+    width: 100%;
+    height: 770px;
+}
+
+.report .container {
+   
+}
+
+.report .container .mycontent {
+    /* margin-top: 50px; */
+    /* float: left; */
+    display: grid;
+    grid-template-columns: 1fr  ;
+}
+
+.report .container .mycontent .heade {
+    margin-left: 50px;
+    grid-column: span 1fr;
+
+}
+
+.report .container .mycontent .heade h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(255, 0, 21);
+    font-weight: 900;
+}
+
+.report .container .mycontent .reportimg {
+    margin-left: 40px;
+    width: 1100px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* End OF REPORT SECTION */
+
+/*               //////////////////////////////////////////////////////////////////      */
+
+/* start Baffer seaction */
+
+
+.baffer {
+    background-color:#df52b021 ;
+    width: 100%;
+    height: 670px;
+}
+
+.baffer .container {
+    /* margin-top: 50px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat( 5 , 1fr ) ; */
+}
+
+.baffer .container .mybaffer {
+    margin-top: 50px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat( 5 , 1fr ) ;
+}
+
+.baffer .container .mybaffer .bafferimg {
+    grid-column: span 3;
+    z-index: 5;
+    width: 700px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.baffer .container .mybaffer .bafferinfo {
+    margin-left: 50px;
+    grid-column: span 2;
+}
+
+.baffer .container .mybaffer .bafferinfo h2 {
+    width: 310px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: rgb(255, 0, 21);
+    font-weight: 900;
+}
+
+.baffer .container .mybaffer .bafferinfo p {
+    width: 400px;
+    margin-top: 25px;
+    font-weight: 900;
+    text-indent: 20px;
+    line-height: 2;
+    word-spacing: 2px;
+}
+
+
+/* END OF BAFFER SECTION */
+
+/*  ////////////////////////////////////////////////////      */
+
+/* START OF ANALYSIS SECTION */
+
+.analysis {
+    margin-bottom: 0px;
+    background-color:#3e0d2d21 ;
+    width: 100%;
+    height: 1600px;
+}
+
+.analysis .container {
+
+}
+
+.analysis .container .overlay {
+    margin-top: 70px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat( 5 , 1fr ) ;
+}
+
+.analysis .container .overlay .mytext {
+    margin-left: 50px;
+    margin-bottom:50px;
+    grid-column: span 5;
+}
+
+.analysis .container .overlay .mytext h2 {
+    width: 1100px;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    color: rgb(255, 0, 21);
+    font-weight: 900;
+    font-size:26px;
+}
+
+.analysis .container .overlay .reclassify{
+    grid-column: span 5;
+    /* z-index: 5; */
+    width: 900px;
+    height: 550px;
+    margin-left: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:70px;
+}
+
+.analysis .container .overlay .mycrateria {
+    margin-left: 50px;
+    grid-column: span 5;
+}
+
+.analysis .container .overlay .mycrateria h2 {
+    width: 1100px;
+    /* margin-top: 30px; */
+    margin-bottom: 25px;
+    color:  rgb(165 108 49);
+    font-weight: 900;
+    font-size:22px;
+}
+
+.analysis .container .overlay .mycrateria ul {
+    width: 310px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    color: rgb(200, 105, 37);
+    font-weight: 900;
+
+}
+
+.analysis .container .overlay .mycrateria li {
+    font-size: 18px;
+    width: 500px;
+    margin-top: 14px;
+    margin-bottom: 44px;
+    color: rgb(90 51 16);
+    font-weight: 900;
+}
